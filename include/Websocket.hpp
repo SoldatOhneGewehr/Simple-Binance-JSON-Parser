@@ -31,8 +31,10 @@ public:
 private:
 std::string host_;
 std::string port_;
-tcp::resolver resolver_{ioc_};
+
 net::io_context ioc_;
 ssl::context ctx_{ssl::context::sslv23_client};
+
+tcp::resolver resolver_{ioc_};
 websocket::stream<beast::ssl_stream<tcp::socket>> ws_{ioc_, ctx_};
 };

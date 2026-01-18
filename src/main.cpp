@@ -2,7 +2,7 @@
 #include "JsonParser.hpp"
 int main()
 {
-    WebSocketClient client("stream.binance.com", "443");
+    WebSocketClient client("stream.binance.com", "9443");
 
     client.connect("/ws");
 
