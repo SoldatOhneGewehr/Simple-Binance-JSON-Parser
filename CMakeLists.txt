@@ -33,3 +33,4 @@ target_compile_options(websocket PRIVATE
     -Wextra
     -march=native
 )
+
