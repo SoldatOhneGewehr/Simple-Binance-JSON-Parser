@@ -30,7 +30,7 @@ public:
     
 private:
 std::string host_;
-std::string port_;
+std::string port_;  
 
 net::io_context ioc_;
 ssl::context ctx_{ssl::context::sslv23_client};

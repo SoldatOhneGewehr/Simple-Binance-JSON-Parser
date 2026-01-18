@@ -1,5 +1,0 @@
-# ninja log v5
-1	1783	1768731585193090513	CMakeFiles/websocket.dir/src/JsonParser.cpp.o	78ae57ca3771f803
-15	5184	1768731704870724131	CMakeFiles/websocket.dir/src/main.cpp.o	9062226fa5f3e5d8
-1	9079	1768731592363820528	CMakeFiles/websocket.dir/src/Websocket.cpp.o	54cde60d8f6525c
-5184	5556	1768731705254122808	websocket	e7999418a4395945
